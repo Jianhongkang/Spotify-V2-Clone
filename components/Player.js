@@ -6,7 +6,7 @@ import { debounce } from "lodash";
 
 import { currentTrackIdState,isPlayingState} from "../atoms/songAtom";
 import useSpotify from "../hooks/useSpotify";
-import useSongInfo from "../hooks/useSongInfo";
+import useSongInfo from "../hooks/usesongInfo";
 import { ArrowsRightLeftIcon, ArrowUturnLeftIcon, BackwardIcon, ForwardIcon, SpeakerWaveIcon } from '@heroicons/react/24/outline';
 
 import{PauseCircleIcon, PlayCircleIcon} from "@heroicons/react/24/solid";

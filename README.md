@@ -21,6 +21,6 @@
 <li> 👉  Use Recoil for state management (when switching playlists and songs)
 </ul>
 
-## 🧰Notes
+## 🧰 Notes
 when you first login the website and you want to play the song, you might meet player command failed error, whcih means you need login in spotify web player or your app player first to make suer you device is active and then refresh this website.
 

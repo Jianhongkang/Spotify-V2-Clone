@@ -1,28 +1,26 @@
-# Next.js + Tailwind CSS Example
+<div align="center">
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+  <img src="https://isamoreira.com/wp-content/uploads/2020/12/Spotify-logo-2048x616.png" alt="logo" width="400" height="auto" />
+  
+  <h1>Spotify Clone with React.JS</h1>
+  
+  <p>
+  Spotify 2.0 with NEXT.JS (Middleware, Spotify API, Tailwind, NextAuth, Recoil)
+  </p>
+  </div>
 
-## Deploy your own
+## 📷 Screenshots
+![478769efe5a4921495f3ba7f9fa802b](https://user-images.githubusercontent.com/110987982/216860605-d26d1402-b0fe-46d5-81d0-f806ec5d0719.png)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## 🌟 Features
+<ul>
+<li> 👉  Fetch Spotify Playlists + Control Music playback with the Spotify API
+<li>👉  User authentication with Spotify + NextAuth to persist user's logged in state
+<li>👉  Style an awesome responsive UI with Tailwind CSS
+<li> 👉  Use Next.js 12 Middleware to handle authenticated user access!
+<li> 👉  Use Recoil for state management (when switching playlists and songs)
+</ul>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## 🧰Notes
+when you first login the website and you want to play the song, you might meet player command failed error, whcih means you need login in spotify web player or your app player first to make suer you device is active and then refresh this website.
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-# Spotify-V2-Clone

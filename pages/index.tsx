@@ -15,13 +15,16 @@ const Home: NextPage = () => {
        <Sidebar />
        <Center/>
 
-       
+     {session ? (
+        <>
       </main>
-      
       <div className='sticky bottom-0'>
         <Player />
       </div>
-
+       </>
+      ) : (
+        <Login providers={providers} />
+      )}
 
 
     </div>
@@ -31,10 +34,13 @@ export default Home
 
 export async function getServerSideProps(){
   const session = await getSession();
+  const providers = await getProviders();
 
   return {
     props: {
       session,
+      providers,
+
     },
   };
 }

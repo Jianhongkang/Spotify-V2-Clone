@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </>
       ) : (
-        <Login providers={providers} />
+        <Login providers=getProviders() />
       )}
     </div>
   );

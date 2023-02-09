@@ -7,7 +7,7 @@ import Login from "./login";
 
 
 
-export default function Home({ providers }) {
+export default function Home() {
   const { data: session, status } = useSession();
   return (
     <div className="bg-black h-screen overflow-hidden">
